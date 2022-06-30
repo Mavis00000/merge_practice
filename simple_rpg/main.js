@@ -96,7 +96,7 @@ $(document).on("keydown", function (event) {
     event.preventDefault();
 
     switch
-    (event.code) {
+    (event.key) {
         case "ArrowLeft":
             targetImg.x = currentImgMain.x - gridLength;
             targetImg.y = currentImgMain.y;
