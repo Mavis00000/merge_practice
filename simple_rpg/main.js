@@ -2,8 +2,8 @@ let mapArray, ctx, currentImgMain;
 let imgMountain, imgMain, imgEnemy;
 const gridLength = 200;
 var sources = {
-    Mountain: "images/material.png",
-    Enemy: "images/Enemy.png"
+    Mountain: "simple_rpg/images/material.png",
+    Enemy: "simple_rpg/images/Enemy.png"
 };
 function loadImages(sources, callback) {
     var images = {};
@@ -33,7 +33,7 @@ $(function () {
     ];
     ctx = $("#myCanvas")[0].getContext("2d");
     imgMain = new Image();
-    imgMain.src = "images/spriteSheet.png";
+    imgMain.src = "simple_rpg/images/spriteSheet.png";
     currentImgMain = {
         "x": 0,
         "y": 0
